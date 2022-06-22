@@ -1,0 +1,725 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.slider1{
+    width: 100%;
+    height: 100vh;
+    background:url(images/t5.jpg);
+    animation-duration:30s;
+    animation-name: ornek;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes ornek{
+    10% {background:url(images/t1.jpg);}
+    25% {background:url(images/t2.jpg);}
+    50% {background:url(images/t6.jpg);}
+    75% {background:url(images/t4.jpg);}
+}
+
+.menu-bar1{
+    width: 100%;
+    font-family: "Dongle";
+}
+
+.menu-bar .menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    font-family: "Dongle";
+}
+
+.menu ul img{
+    margin-top: -4%;
+    margin-left: -6%;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    color: white;
+    font-size: 24px;
+}
+
+.menu ul li a:hover{
+    color: gray;
+    transition: 300ms all;
+    text-decoration: none;
+}
+
+.menu-bar .menu i{display: none;
+
+}
+
+.menu-barp{
+    width: 100%;
+    font-family: "Dongle";
+}
+
+.menu-barp .menu1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.menu1 ul img{
+    margin-top: -4%;
+    margin-left: -6%;
+}
+
+.menu1 ul li{
+    list-style: none;
+}
+
+.menu1 ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+.menu1 ul li a:hover{
+    color: gray;
+    transition: 300ms all;
+    text-decoration: none;
+}
+
+.menu-barp .menu1 i{display: none;
+
+}
+
+
+/*--İCONS--*/
+
+.icons {
+    width: 100%;
+    height: 10vh;
+    background: rgba(0, 0, 0, 0.432);
+    text-align: center;
+    margin-top: 53%;
+    display: flex;
+}
+.icons .ico{
+    margin-left: 34px;
+}
+
+.icons h1{
+    font-family: 'Dongle';
+    font-size: 14px;
+    color: white;
+    margin-top:34px;
+    text-indent: 23px;
+    letter-spacing: 2.6px;
+}
+
+.icons i{
+    color: white;
+    margin-top: 34px;
+    font-size: 11px;
+     
+}
+
+.icons a{
+    
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.icons i:hover{
+
+    color: rgb(248, 6, 6);
+}
+
+/*-- content --*/
+
+.content{
+    width: 80%;
+    text-align: center;
+    font-family: 'Exo';
+    margin: 10px auto;
+}
+
+.content h1{
+    font-size: 36px;
+    font-family: 'Exo';
+}
+
+.content h2{
+    font-size: 12px;
+    font-family: 'Exo';
+    line-height: 34px;
+    color: black;
+}
+
+/* -- FOOTER --*/
+
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-image:linear-gradient(to right, transparent, rgba(5, 5, 5, 0.884)),
+    linear-gradient(to left,transparent,rgb(0, 0, 0)),
+    url(images/m7.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+   
+}
+
+.footerleft h1{
+    align-items: center;
+    margin: 14px auto;
+    
+}
+
+.footerleft h2{
+    font-size: 10px;
+    color: rgb(133, 133, 133);
+    font-family: 'Exo';
+}
+.footerleft h3{
+    font-size: 10px;
+    color: rgb(133, 133, 133);
+    font-family: 'Exo';
+    text-align: center;
+    margin-top: 20%;
+}
+
+
+.footerright h1{
+    text-align: right;
+    font-size: 20px;
+    color: rgb(133, 133, 133);
+    font-family: 'Exo';
+    margin-top: 78%;
+    
+
+}
+
+.footerright h2{
+    width: 140px;
+    height: 60px;
+    text-align: right;
+    font-size: 13px;
+    color: rgb(133, 133, 133);
+    font-family: 'Exo';
+    margin-top: 45px;
+    
+    
+
+}
+
+.footerleft h4{
+    font-size: 17px;
+    display: flex;
+    
+}
+
+.footerleft h4 .ico{
+    padding: 8px;
+    color: white;
+}
+
+.footerleft h4 a{
+    color: white;
+}
+
+.footerleft h4 i:hover{
+    color: rgb(255, 0, 0);
+}
+
+.footerright a{
+    color: rgb(138, 138, 138);
+    
+}
+.footerright a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.faaliyet{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    background: rgb(0, 0, 0);
+    font-family: 'Exo';
+}
+
+.faaliyet .fa1{
+    display: flex;
+    margin: 5px auto;
+}
+
+.faaliyet .col-s1{
+    align-items: center;
+    padding: 14px;
+    color: white;
+
+}
+
+
+/*Communication */
+
+.communication {
+    width: 100%;
+    height: 80vh;
+    background: rgb(255, 255, 255);
+    color:black;
+    margin-bottom: 44px;
+    display: flex;
+    border-top: 1px solid black;
+
+}
+
+.communication .area1{
+    width: 100%;
+    height: 100%;
+    font-family: 'Exo', serif;
+    padding-left: 34px;
+    padding-top: 10%;
+    background: rgb(255, 255, 255);
+}
+
+
+
+.communication .area1 h1{
+    font-size: 34px;
+    text-align: left;
+}
+.communication .area1 h2{
+    font-size: 14px;
+    text-align: left;
+}
+.communication .area1 h3 a{
+    font-size: 14px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    transition: 300ms all;
+}
+.communication .area1 h3 a:hover{
+    color: rgb(126, 50, 50);
+}
+.communication .area1 h4{
+    font-size: 14px;
+    text-align: left;
+}
+
+.communication .area2{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.267);
+    color:black;
+    padding: 2rem;
+    font-family: 'Exo', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.communication .area2 h3{
+    margin-bottom:2rem ;
+    padding-left:4px;
+    
+}
+
+.communication .area2 .form-control{
+    margin-bottom: 2rem;
+    position: relative;
+    border:0;
+}
+
+.communication .area2 .form-control input,
+ .form-control textarea{
+    padding: 0.5rem;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    outline: none;
+
+}
+
+.communication .area2 .form-control .submit{ 
+background:rgb(255, 0, 0);
+border-radius:11px 13px 0 0;
+width: 100%;
+color: rgb(0, 0, 0);
+border:0;
+margin-top: 2rem;
+cursor: pointer;
+text-transform: uppercase;
+transition: 300ms all;
+-webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition:300ms all;
+    -o-transition: 300ms all;
+}
+
+.communication .area2 .form-control .submit:hover{ 
+    background-color:rgb(124, 4, 4) ;
+    }
+.communication .area2 .form-control input{
+    color: rgb(0, 0, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.communication .area2 .form-control input~label,
+ .form-control textarea~label{
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    padding: 0.5rem;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition:300ms all;
+    -o-transition: 300ms all;
+
+}
+
+.communication .area2 .form-control input:focus ~ label,
+ .form-control textarea:focus ~ label{
+    top: -1.5rem;
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+
+}
+.communication .area2 .form-control input:focus ~ label,
+ .form-control textarea:focus ~ label,
+ .communication .area2 .form-control input:valid ~ label,
+ .form-control textarea:valid ~ label{
+    top: -1.5rem;
+    color: red;
+    font-size: 0.8rem;
+
+}
+
+
+.secbanner {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.secbanner .sec{
+    width: 25%;
+    border-radius: 3px;
+    margin: 12% auto;
+    box-sizing: border-box;
+    background: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0.555));
+
+    
+}
+
+.secbanner .contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 27px;
+    text-align: justify;
+    font-family: 'Exo';
+    color: rgb(0, 0, 0);
+}
+
+.secbanner img{
+    width: 100%;
+    transition: all 500ms ;
+}
+.secbanner .sec img:hover{
+    transform: scale(1.02);
+    
+}
+.secbanner h1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 14px;
+}
+
+.secbanner h2{
+    font-size: 11px;
+    text-indent: 15px;
+}
+
+.secbanner .sec:hover{
+    box-shadow: 2px 4px 4px 0px black;
+    transition: 900ms all;
+    
+}
+.secbanner .btn{
+    width: 70px;
+    height: 20px;
+    padding: 4px;
+    font-size: 9px;
+    background: rgba(116, 116, 116, 0.986);
+    margin-top: 20px;
+    display: block;
+    text-decoration: none; 
+    border-radius: 2px;
+    text-align: center;
+    
+}
+
+
+.secbanner .btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:7px;
+}
+
+.secbanner .sec .btn:hover {
+    background: rgba(82, 81, 81, 0.473);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    transition: 400ms all;}
+
+.secbanner .sec .btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+.secbanner .sec .btn a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.secbanner .sec .btn i{
+    color: rgb(0, 0, 0);
+}
+
+.contact{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    
+}
+
+.contact .contact1{
+    width: 50%;
+    height: 100%;
+    background:url(images/12.jpg);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    border: 1px solid gray;
+    box-shadow: 12px 12px 12px -14px;
+    padding: 14px;
+}
+
+.contact .contact2{
+    width: 50%;
+    height: 100%;
+    font-family: 'Exo';
+    padding-top: 120px;
+    border: 1px solid gray;
+    
+    
+}
+.contact2 h1{
+    font-size: 38px;
+    text-align: center;
+}
+.contact2 h2{
+    font-size: 22px;
+    text-align: center;
+}
+.contact2 h3{
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.contact2 h3 a{
+    color: red;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+}
+.contact2 h4{
+    font-size: 22px;
+    text-align: center;
+}
+
+
+
+
+
+
+/* -- RESPONSİVE MOBİL -- */
+
+@media only screen and (max-width:414px){
+    .menu-bar{
+        width: 85%;
+    }
+    .menu-barp{
+        width: 85%;
+    }
+    .menu-barp .menu1 ul{ display: none;}
+    .menu-bar .menu ul{ display: none;}
+   .menu-bar .menu i{display: block;
+
+    width: 60px;
+    cursor: pointer;
+    color: white;
+    margin-left: 85%;
+    font-size: 40px;
+    border: 1px solid white;
+    padding: 10px;
+}
+   .menu-barp .menu1 i{display: block;
+    width: 40px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    margin-left: 85%;
+    font-size: 30px;
+    padding: 10px;
+    
+
+}
+   .footer {width: 99%;}
+   .icons .text {width: 24%;}
+   .icons .text h1{font-size: 10px; margin-top: 11px;}
+
+.content {
+    width: 45%;
+}
+
+.faaliyet{
+    width: 90%;
+    margin-top: 44px;
+}
+
+.faaliyet .fa1 {
+    width: 90%;
+    margin-left: 4px;
+}
+
+.faaliyet .fa1 .col-s1{
+    font-size: 9px;
+    margin-top: -8px;
+}
+
+.secbanner {
+    width: 90%;
+}
+.secbanner .sec{
+    width: 55%;
+    
+}
+
+.footer {
+    width: 98%;
+}
+
+.footer .footerleft {
+    width: 30%;
+}
+.footer .footerleft .ico{
+    font-size: 10px;
+}
+
+.footer .footerleft h1{
+    margin-top: -60px;
+}
+
+.footer .footerleft img{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.footer .footerright {
+    width: 30%;
+}
+.footer .footerright h1{
+    width: 100px;
+    height: 10px;
+    margin-top: 44px;
+}
+
+.footer .footerright h2{
+    width: 20%;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.footer .footerright h2 a{
+    width: 1%;
+    font-size: 7px;
+}
+.communication{
+    width: 85%;
+}
+
+.communication .area1{
+    width: 40%;
+    padding-top: 24%;
+}
+.communication .area1 h1 {
+    width: 40%;
+    font-size:16px;
+}
+.communication .area1 h2 {
+    width: 40%;
+    font-size:12px;
+}
+.communication .area1 h3 a{
+    width: 40%;
+    font-size:10px;
+    margin-top: 100px;
+}
+.communication .area1 h4 {
+    width: 40%;
+    font-size:10px;
+}
+.communication .area2{
+    width: 20%;
+    margin-left:74px ;
+}
+
+.communication .area2 .form-control {
+    font-size: 10px;
+}
+.communication .area2 .form-control .submit {
+    font-size: 7px;
+}
+.communication .area2 .form-control .submit input {
+    font-size: 10px;
+
+}
+.contact{
+    width: 98%;
+}
+.icons{
+    width: 100%;
+    margin-top: 450px;
+    background: black;
+}
+
+.icons .text{
+    width: 100%;
+    
+}
+.icons .text h1{
+    font-size: 9px;
+    padding-top: 13px;
+}
+
+.icons .ico i{
+    font-size: 6px;
+    padding:-44px
+}
+}
+
